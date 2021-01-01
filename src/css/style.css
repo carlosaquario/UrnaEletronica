@@ -133,7 +133,7 @@ body {
   margin-left: 30px;
 }
 
-.teclado-botao {
+.area-teclado {
   display: grid;
   grid-template-areas:
     "botao botao botao"
@@ -167,7 +167,7 @@ body {
 .teclado-botao:nth-child(10) {
   grid-area: botao0;
   justify-self: center;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 .btn-opcoes {
