@@ -111,8 +111,7 @@ body {
 
 .imagem.pequeno {
   width: 80%;
-  font-size: 12px;
-  
+  font-size: 12px;  
 }
 
 .imagem img {
@@ -137,9 +136,9 @@ body {
 .teclado-botao {
   display: grid;
   grid-template-areas:
-    "botao1 botao2 botao3"
-    "botao4 botao5 botao6"
-    "botao7 botao8 botao9"
+    "botao botao botao"
+    "botao botao botao"
+    "botao botao botao"
     "botao0 botao0 botao0"
     "botao-branco botao-corrige botao-confirma";
   column-gap: 15px;
@@ -165,37 +164,10 @@ body {
   transform: translateY(4px);
 }
 
-.teclado-botao1 {
-  grid-area: botao1;
-}
-.teclado-botao2 {
-  grid-area: botao2;
-}
-.teclado-botao3 {
-  grid-area: botao3;
-}
-.teclado-botao4 {
-  grid-area: botao4;
-}
-.teclado-botao5 {
-  grid-area: botao5;
-}
-.teclado-botao6 {
-  grid-area: botao6;
-}
-.teclado-botao7 {
-  grid-area: botao7;
-}
-.teclado-botao8 {
-  grid-area: botao8;
-}
-.teclado-botao9 {
-  grid-area: botao9;
-}
-.teclado-botao0 {
+.teclado-botao:nth-child(10) {
   grid-area: botao0;
   justify-self: center;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 .btn-opcoes {
