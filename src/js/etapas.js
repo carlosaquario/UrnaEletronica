@@ -1,4 +1,4 @@
-let etapas = [
+const etapas = [
   {
     titulo: "VEREADOR",
     numeros: 5,
@@ -6,16 +6,16 @@ let etapas = [
       {
         numero: 38111,
         nome: "Aqua",
-        partido: "Seven Guardians of Light",
-        fotos: [{ url: "Aqua_KHIII.webp", legenda: "Vereador", pequeno: false }],
+        partido: "SGL",
+        fotos: [{ url: "Aqua_KHIII.webp", legenda: "Vereador", isPequeno: false }],
       },
 
       {
-        numero: 7722,
+        numero: 77225,
         nome: "Xehanort",
-        partido: "Thirteen Seekers of Darkness",
+        partido: "TSD",
         fotos: [
-          { url: "Xehanort_KHIII.webp", legenda: "Vereador", pequeno: false },
+          { url: "Xehanort_KHIII.webp", legenda: "Vereador", isPequeno: false },
         ],
       },
     ],
@@ -29,10 +29,10 @@ let etapas = [
         numero: 14,
         nome: "Ventus",
         vice: "Riku",
-        partido: "Seven Guardians of Light",
+        partido: "SGL",
         fotos: [
-          { url: "Ventus_KHIII.webp", legenda: "Prefeito", pequeno: false },
-          { url: "riku.jpg", legenda: "Vice-Prefeito", pequeno: true },
+          { url: "Ventus_KHIII.webp", legenda: "Prefeito", isPequeno: false },
+          { url: "riku.jpg", legenda: "Vice-Prefeito", isPequeno: true },
         ],
       },
 
@@ -40,10 +40,10 @@ let etapas = [
         numero: 66,
         nome: "Terra",
         vice: "Ansem",
-        partido: "Thirteen Seekers of Darkness",
+        partido: "TSD",
         fotos: [
-            { url: "Terra_KHIII.webp", legenda: "Prefeito", pequeno: false },
-            { url: "Ansem.webp", legenda: "Vice-Prefeito", pequeno: true },
+            { url: "Terra_KHIII.webp", legenda: "Prefeito", isPequeno: false },
+            { url: "Ansem.webp", legenda: "Vice-Prefeito", isPequeno: true },
         ],
       },
     ],
