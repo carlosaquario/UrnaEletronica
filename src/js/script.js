@@ -9,6 +9,7 @@ const tecladoBotao = document.querySelectorAll(".teclado-botao");
 const botaoBranco = document.querySelector(".teclado-botao-branco");
 const botaoCorrige = document.querySelector(".teclado-botao-corrige");
 const botaoConfirma = document.querySelector(".teclado-botao-confirma");
+const botaoReiniciar = document.querySelector(".botao-reiniciar");
 
 let etapaAtual = 0;
 let numero = "";
@@ -24,13 +25,15 @@ botaoBranco.addEventListener("click", clicouBotaoBranco);
 botaoCorrige.addEventListener("click", clicouBotaoCorrige);
 botaoConfirma.addEventListener("click", clicouBotaoConfirma);
 
+comecarEtapa();
+
 function comecarEtapa() {
   etapa = etapas[etapaAtual];
 
   // Quantidade de quadradinhos de acordo com a etapa
   let numeroHtml = "";
   numero = "";
-  branco = false;
+  isBbranco = false;
 
   for (let i = 0; i < etapa.numeros; i++) {
     if (i === 0) {
@@ -48,7 +51,7 @@ function comecarEtapa() {
   quadradoNumero.innerHTML = numeroHtml;
 }
 
-comecarEtapa();
+
 
 function atualizaInterface() {
   etapa = etapas[etapaAtual];
@@ -138,6 +141,7 @@ function clicouBotaoCorrige() {
 
 function clicouBotaoConfirma() {
   etapa = etapas[etapaAtual];
+
   let isConfirmado = false;
 
   if (isBranco === true) {
@@ -147,6 +151,7 @@ function clicouBotaoConfirma() {
       etapa: etapas[etapaAtual].titulo,
       voto: "BRANCO",
     });
+    
   } else if (numero.length === etapa.numeros) {
     isConfirmado = true;
 
@@ -167,8 +172,13 @@ function clicouBotaoConfirma() {
       uma etapa nao existente */
       botaoCorrige.removeEventListener("click", clicouBotaoCorrige);
       botaoConfirma.removeEventListener("click", clicouBotaoConfirma);
+      botaoReiniciar.addEventListener("click", reiniciarVotacao);
 
       console.log(votos);
     }
   }
+}
+
+function reiniciarVotacao() {
+    location.reload();  
 }
