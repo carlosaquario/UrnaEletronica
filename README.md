@@ -50,7 +50,8 @@ No arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd> é possível ver todos os 
 
 <br>
 
-[Link para o teste da aplicação aqui](https://urnaeletronica.netlify.app/)
+<a href="https://urnaeletronica.netlify.app/" target="_blank"></a>
+
 
 
 
