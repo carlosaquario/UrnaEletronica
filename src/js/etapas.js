@@ -5,17 +5,17 @@ const etapas = [
     candidatos: [
       {
         numero: 38111,
-        nome: "Aqua",
-        partido: "SGL",
-        fotos: [{ url: "Aqua_KHIII.webp", legenda: "Vereador", isPequeno: false }],
+        nome: "Vereador 1",
+        partido: "ABC",
+        fotos: [{ url: "boy.jpg", legenda: "Vereador", isPequeno: false }],
       },
 
       {
         numero: 77225,
-        nome: "Xehanort",
-        partido: "TSD",
+        nome: "Vereador 2",
+        partido: "DEF",
         fotos: [
-          { url: "Xehanort_KHIII.webp", legenda: "Vereador", isPequeno: false },
+          { url: "girl.png", legenda: "Vereador", isPequeno: false },
         ],
       },
     ],
@@ -27,23 +27,23 @@ const etapas = [
     candidatos: [
       {
         numero: 14,
-        nome: "Ventus",
-        vice: "Riku",
-        partido: "SGL",
+        nome: "Prefeito 1",
+        vice: "Vice-Prefeito 1",
+        partido: "GHI",
         fotos: [
-          { url: "Ventus_KHIII.webp", legenda: "Prefeito", isPequeno: false },
-          { url: "riku.jpg", legenda: "Vice-Prefeito", isPequeno: true },
+          { url: "boy02.jpg", legenda: "Prefeito", isPequeno: false },
+          { url: "boy03.jpg", legenda: "Vice-Prefeito", isPequeno: true },
         ],
       },
 
       {
         numero: 66,
-        nome: "Terra",
-        vice: "Ansem",
-        partido: "TSD",
+        nome: "Prefeito 2",
+        vice: "Vice Prefeito 2",
+        partido: "JKL",
         fotos: [
-            { url: "Terra_KHIII.webp", legenda: "Prefeito", isPequeno: false },
-            { url: "Ansem.webp", legenda: "Vice-Prefeito", isPequeno: true },
+            { url: "girl02.jpg", legenda: "Prefeito", isPequeno: false },
+            { url: "girl03.png", legenda: "Vice-Prefeito", isPequeno: true },
         ],
       },
     ],
