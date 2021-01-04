@@ -48,11 +48,4 @@ No arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd> é possível ver todos os 
 
 <p>Execute em qualquer navegador de sua escolha. Foi usado neste projeto CSS Grid e Flexbox para posicionamento dos itens, bem como uma pequena animação para fazer alguns dos textos piscarem</p>
 
-<br>
-
-<a href="https://urnaeletronica.netlify.app/" target="_blank"></a>
-
-
-
-
-
+[Link para testar a aplicação aqui](https://urnaeletronica.netlify.app/)
