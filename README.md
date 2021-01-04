@@ -11,8 +11,10 @@
  
  ## 1. Voto Nulo
 
- <p>Para criar um voto nulo basta digitar valores que não existam no arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd></p>
+Para criar um voto nulo basta digitar valores que não existam no arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd>
+
 <br>
+
 <div align="center">
     <img src="https://user-images.githubusercontent.com/29709111/103557926-a972d900-4e92-11eb-89c7-0175eeff27ba.gif" width="520px" align="center">
 </div>
@@ -32,7 +34,7 @@
 
  ## 2. Voto Válido
 
- <p>No arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd> é possível ver todos os números que são válidos. Ou simplesmente olhe o gif a seguir</p>
+No arquivo <kbd>[etapas.js](./src/js/etapas.js)</kbd> é possível ver todos os números que são válidos. Ou simplesmente olhe o gif a seguir
 
 <br>
 
@@ -44,11 +46,11 @@
 
 ## **Considerações Finais**
 
-<p>Para melhor acesso recomendo que exeute no Chrome ou Microsoft Edge. Caso queira executar no Firefox, tenha certeza de que possua uma tela relativamente grande</p>
+<p>Execute em qualquer navegador de sua escolha. Foi usado neste projeto CSS Grid e Flexbox para posicionamento dos itens, bem como uma pequena animação para fazer alguns dos textos piscarem</p>
 
 <br>
 
-<p>Link para o teste da aplicação aqui</p>
+[Link para o teste da aplicação aqui](https://urnaeletronica.netlify.app/)
 
 
 
